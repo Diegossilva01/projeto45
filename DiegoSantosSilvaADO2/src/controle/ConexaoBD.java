@@ -39,9 +39,9 @@ public class ConexaoBD {
          
         
             ctm= DriverManager.getConnection(caminho,usuario,senha);
-            JOptionPane.showMessageDialog(null, "danco de dados conectado com sucesso");
+        //    JOptionPane.showMessageDialog(null, "danco de dados conectado com sucesso");
         } catch (SQLException ex) {
-            JOptionPane.showMessageDialog(null,"erro ao se conectar com banco de dados0 "+ ex);
+          //  JOptionPane.showMessageDialog(null,"erro ao se conectar com banco de dados0 "+ ex);
         }
         
     }  
@@ -55,7 +55,7 @@ public class ConexaoBD {
           
           
       } catch (SQLException ex) {
-          JOptionPane.showMessageDialog(null,"erro ao executar sql"+ex);
+      //    JOptionPane.showMessageDialog(null,"erro ao executar sql"+ex);
       }
         
         
@@ -63,9 +63,9 @@ public class ConexaoBD {
     public void desconecta (){
         try {
             ctm.close();
-            JOptionPane.showMessageDialog(null, "banco de dados desconectado");
+       //     JOptionPane.showMessageDialog(null, "banco de dados desconectado");
         } catch (SQLException ex) {
-            JOptionPane.showMessageDialog(null, "erro ao ser desconectar" + ex);
+      //      JOptionPane.showMessageDialog(null, "erro ao ser desconectar" + ex);
         }
         
     }

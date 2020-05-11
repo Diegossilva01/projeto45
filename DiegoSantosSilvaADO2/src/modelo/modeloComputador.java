@@ -5,11 +5,11 @@ public class modeloComputador {
 
     
     
-    
+    int id_computador ;
     String marca ;
     String hb ;
     String processador ;
-
+    String pesuisar ;
     
     public int getId_computador() {
         return id_computador;
@@ -21,9 +21,6 @@ public class modeloComputador {
     
     
     
-    
-    int id_computador ;
-
     public String getPesuisar() {
         return pesuisar;
     }
@@ -31,7 +28,7 @@ public class modeloComputador {
     public void setPesuisar(String pesuisar) {
         this.pesuisar = pesuisar;
     }
-    String pesuisar ;
+    
     
     
     public String getMarca() {
